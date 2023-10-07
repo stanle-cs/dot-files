@@ -1,0 +1,153 @@
+"annotation"                       = { fg = "norm"                                                                                          }
+"attribute"                        = { fg = "norm"                                      , modifiers = ["italic"]                            }
+"comment"                          = { fg = "bg_subtle"                                                                                     }
+"comment.block.documentation"      = { fg = "bg_subtle"                                                                                     }
+"comment.block"                    = { fg = "bg_subtle"                                                                                     }
+"comment.line"                     = { fg = "bg_subtle"                                                                                     }
+"constant"                         = { fg = "maincolor"                                                                                     }
+"constant.numeric"                 = { fg = "maincolor"                                                                                     }
+"constant.builtin"                 = { fg = "maincolor"                                                                                     }
+"constant.builtin.boolean"         = { fg = "maincolor"                                                                                     }
+"constant.character"               = { fg = "maincolor"                                                                                     }
+"constant.character.escape"        = { fg = "norm_subtle"                                                                                   }
+"constant.macro"                   = { fg = "maincolor"                                                                                     }
+"constructor"                      = { fg = "norm_subtle"                                                                                   }
+"function"                         = { fg = "norm"                                                                                          }
+"function.builtin"                 = { fg = "norm"                                                                                          }
+"function.method"                  = { fg = "norm"                                                                                          }
+"function.macro"                   = { fg = "norm"                                                                                          }
+"function.call"                    = { fg = "norm"                                                                                          }
+"keyword"                          = { fg = "norm_subtle"                                                                                   }
+"keyword.operator"                 = { fg = "norm_subtle"                                                                                   }
+"keyword.function"                 = { fg = "norm_subtle"                                                                                   }
+"keyword.return"                   = { fg = "norm_subtle"                                                                                   }
+"keyword.control.import"           = { fg = "norm_subtle"                                                                                   }
+"keyword.directive"                = { fg = "norm_subtle"                                                                                   }
+"keyword.control.repeat"           = { fg = "norm_subtle"                                                                                   }
+"keyword.control.conditional"      = { fg = "norm_subtle"                                                                                   }
+"keyword.control.exception"        = { fg = "norm_subtle"                                                                                   }
+"keyword.storage"                  = { fg = "norm_subtle"                                                                                   }
+"keyword.storage.type"             = { fg = "norm_subtle"                               , modifiers = ["italic"]                            }
+"keyword.storage.modifier"         = { fg = "norm_subtle"                                                                                   }
+"tag"                              = { fg = "norm_subtle"                               , modifiers = ["italic"]                            }
+"tag.attribute"                    = { fg = "norm_subtle"                               , modifiers = ["italic"]                            }
+"tag.delimiter"                    = { fg = "norm_subtle"                               , modifiers = ["italic"]                            }
+"label"                            = { fg = "norm_subtle"                                                                                   }
+"punctuation"                      = { fg = "norm"                                                                                          }
+"punctuation.bracket"              = { fg = "norm"                                                                                          }
+"punctuation.delimiter"            = { fg = "norm"                                                                                          }
+"punctuation.special"              = { fg = "norm"                                      , modifiers = ["italic"]                            }
+"special"                          = { fg = "norm_subtle"                                                                                   }
+"string"                           = { fg = "maincolor"                                                                                     }
+"string.special"                   = { fg = "maincolor"                                                                                     }
+"string.symbol"                    = { fg = "maincolor"                                                                                     }
+"string.regexp"                    = { fg = "maincolor"                                                                                     }
+"type.builtin"                     = { fg = "norm"                                      , modifiers = ["italic"]                            }
+"type"                             = { fg = "norm"                                      , modifiers = ["italic"]                            }
+"type.enum.variant"                = { fg = "norm"                                      , modifiers = ["italic"]                            }
+"variable"                         = { fg = "norm"                                                                                          }
+"variable.builtin"                 = { fg = "norm"                                      , modifiers = ["italic", "bold"]                    }
+"variable.parameter"               = { fg = "norm"                                      , modifiers = ["italic"]                            }
+"variable.other"                   = { fg = "norm"                                                                                          }
+"variable.other.member"            = { fg = "norm"                                                                                          }
+
+"diff.plus"                        = { fg = "green"                                                                                         }
+"diff.delta"                       = { fg = "orange"                                                                                        }
+"diff.minus"                       = { fg = "red"                                                                                           }
+"ui.background"                    = { fg = "norm"                                      , bg = "bg"                                         }
+"ui.cursor.match"                  = { fg = "norm"                                      , bg = "maincolor"                                  }
+"ui.cursor"                        = { fg = "norm"                                      , bg = "maincolor"            , modifiers = ["dim"] }
+"ui.cursor.normal"                 = { fg = "norm"                                      , bg = "maincolor"            , modifiers = ["dim"] }	
+"ui.cursor.insert"                 = { fg = "norm"                                      , bg = "maincolor"            , modifiers = ["dim"] }	
+"ui.cursor.select"                 = { fg = "norm"                                      , bg = "maincolor"            , modifiers = ["dim"] }
+"ui.cursor.primary.normal"         = { fg = "norm"                                      , bg = "maincolor"                                  }	
+"ui.cursor.primary.insert"         = { fg = "norm"                                      , bg = "maincolor"                                  }	
+"ui.cursor.primary.select"         = { fg = "norm"                                      , bg = "maincolor"                                  }
+#"ui.cursorline.primary"           = { bg = "cursorline"                                                                                    }
+#"ui.help"                         = { fg = "norm"                                      , bg = "black"                                      }
+#"ui.debug"                        = { fg = "red"                                                                                           }
+#"ui.highlight.frameline"          = { fg = "bg"                                        , bg = "red"                                        }
+"ui.linenr"                        = { fg = "bg_subtle"                                                                                     }
+"ui.linenr.selected"               = { fg = "norm"                                                                                          }
+"ui.menu"                          = { fg = "norm"                                      , bg = "bg_very_subtle"                             }
+"ui.menu.selected"                 = { fg = "norm"                                      , bg = "bg_subtle"     , modifiers = ["dim"]        }
+"ui.menu.scroll"                   = { fg = "norm"                                      , bg = "bg_very_subtle"                             }
+"ui.popup"                         = { fg = "norm"                                      , bg = "bg_very_subtle"                             }
+"ui.selection.primary"             = { bg = "dark_pink"                                                                                     }
+"ui.selection"                     = { bg = "dark_pink"                                                                                     }
+"ui.statusline"                   = { fg = "norm"                                      , bg = "bg_very_subtle"                                     }
+"ui.statusline.inactive"          = { fg = "norm"                                   , bg = "bg_very_subtle"                                     }
+"ui.statusline.normal"            = { fg = "norm"                                     , bg = "purple"                                     }
+"ui.statusline.insert"            = { fg = "norm"                                     , bg = "green"                                      }
+"ui.statusline.select"            = { fg = "norm"                                     , bg = "cyan"                                       }
+#"ui.text"                         = { fg = "norm"                                                                                          }
+#"ui.text.focus"                   = { fg = "cyan"                                                                                          }
+#"ui.window"                       = { fg = "norm"                                                                                          }
+#"ui.virtual.whitespace"           = { fg = "current_line"                                                                                  }
+#"ui.virtual.wrap"                 = { fg = "current_line"                                                                                  }
+"ui.virtual.ruler"                 = { bg = "subtle_black"                                                                                  }
+#"ui.virtual.indent-guide"         = { fg = "indent"                                                                                        }
+"ui.virtual.inlay-hint"           = { fg = "bg_subtle"                                                                                          }
+"ui.virtual.inlay-hint.parameter" = { fg = "bg_subtle"                                      , modifiers = ["italic", "dim"]                     }
+"ui.virtual.inlay-hint.type"      = { fg = "bg_subtle"                                      , modifiers = ["italic", "dim"]                     }
+#"hint"                            = { fg = "purple"                                                                                        }
+#"error"                           = { fg = "red"                                                                                           }
+#"warning"                         = { fg = "yellow"                                                                                        }
+#"info"                            = { fg = "cyan"                                                                                          }
+#"markup.heading"                  = { fg = "purple"                                    , modifiers = ["bold"]                              }
+#"markup.list"                     = { fg = "cyan"                                                                                          }
+#"markup.bold"                     = { fg = "orange"                                    , modifiers = ["bold"]                              }
+#"markup.italic"                   = { fg = "yellow"                                    , modifiers = ["italic"]                            }
+#"markup.strikethrough"            = { modifiers = ["crossed_out"]                                                                          }
+#"markup.link.url"                 = { fg = "cyan"                                                                                          }
+#"markup.link.text"                = { fg = "maincolor"                                                                                     }
+#"markup.quote"                    = { fg = "yellow"                                    , modifiers = ["italic"]                            }
+#"markup.raw"                      = { fg = "norm"                                                                                          }
+#"diagnostic"                      = { underline            = { color = "orange"        , style = "curl"                                    } }
+#"diagnostic.hint"                 = { underline      = { color = "purple"              , style = "curl"                                    }                                                               }
+#"diagnostic.warning"              = { underline = { color = "yellow"                   , style = "curl"                                    }      }
+#"diagnostic.error"                = { underline                       = { color = "red", style = "curl"                                    }      }
+#"diagnostic.info"                 = { underline          = { color = "cyan"            , style = "curl"                                    }      }
+#"definition"                      = { underline              = { color = "cyan"                                                            }                              }
+
+[palette]
+black          = "#000000"
+medium_gray    = "#767676"
+white          = "#F1F1F1"
+actual_white   = "#FFFFFF"
+subtle_black   = "#121212"
+light_black    = "#262626"
+lighter_black  = "#4E4E4E"
+light_gray     = "#A8A8A8"
+lighter_gray   = "#C6C6C6"
+lightest_gray  = "#EEEEEE"
+dark_pink      = "#ff5f87"
+light_pink     = "#d75f87"
+dark_red       = "#C30771"
+light_red      = "#E32791"
+orange         = "#D75F5F"
+darker_blue    = "#005F87"
+dark_blue      = "#008EC4"
+blue           = "#20BBFC"
+light_blue     = "#b6d6fd"
+dark_cyan      = "#20A5BA"
+light_cyan     = "#4FB8CC"
+dark_green     = "#10A778"
+light_green    = "#5FD7A7"
+light_purple   = "#a790d5"
+#yellow         = "#F3E430"
+light_yellow   = "#ffff87"
+dark_yellow    = "#A89C14"
+#not sure if this work but this is directly from the vim file
+maincolor       = "#d75f87"
+#maincolor       = "#a790d5"
+bg              = "#000000"
+bg_subtle       = "#4E4E4E"
+bg_very_subtle  = "#121212"
+norm            = "#C6C6C6"
+norm_subtle     = "#767676"
+cyan            = "#4FB8CC"
+green           = "#5FD7A7"
+red             = "#E32791"
+visual          = "#d75f87"
+yellow          = "#ffff87"
